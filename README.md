@@ -2,7 +2,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 
-# Diary for 2030 in LaTeX
+# Diary for 2025 in LaTeX
 
 ## Purpose 
 
