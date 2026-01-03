@@ -1,4 +1,4 @@
-![Version](https://img.shields.io/static/v1?label=diary2030inLaTeX&message=0.1&color=brightcolor)
+![Version](https://img.shields.io/static/v1?label=diary2025inLaTeX&message=0.1&color=brightcolor)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 
@@ -6,7 +6,7 @@
 
 ## Purpose 
 
-Compile a 365-page diary for 2030, one page per day.
+Compile a 365-page diary for 2025, one page per day.
 Each month is a chapter, and each day is a section in a chapter.
 
 ## Compile locally with texlive
@@ -16,9 +16,9 @@ This document can accommodate at least 1500 pages and 1.5 million words and can 
 ## Compile locally with Emacs
 
 The master or main document is main.tex.
-Open this file and run C-c C-c.
+Open this file and run `C-c C-c`.
 This triggers a list of options.
-Select XeLaTeX + Makeindex + BibTeX.
+Select `XeLaTeX + Makeindex + BibTeX`.
 The preamble in main.tex is configured to use XeLaTeX to enable the minted package for code listings.
 Adjust the preamble to use another compiler.
 
@@ -27,7 +27,7 @@ You may have to compile twice the first time to generate the table of contents.
 ## Glossaries
 
 Support for acronyms, glossaries, and symbols is provided.
-Comment out the corresponding make commands in 0AAAcontent.tex if you do not want these.
+Comment out the corresponding make commands in `0AAAcontent.tex` if you do not want these.
 
 ## Related repos
 
